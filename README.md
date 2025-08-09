@@ -19,7 +19,7 @@ This repository serves as a reference for learning, practicing, and applying VBA
 8. [Best Practices](#best-practices)
 9. [Resources & Further Learning](#resources--further-learning)
    
-
+---
 ## Introduction to VBA
 
 **VBA (Visual Basic for Applications)** is Microsoft’s programming language for automating tasks and extending functionalities in Office applications like Excel, Word, and Outlook.  
@@ -29,7 +29,7 @@ With VBA, you can:
 - Build user interfaces
 - Integrate Excel with other applications
 
-
+---
 ## Getting Started
 
 1. **Enable the Developer Tab**
@@ -43,7 +43,7 @@ With VBA, you can:
 4. **Enable Macros**
    - Go to `File` → `Options` → `Trust Center` → **Enable all macros** (for development only).
 
-
+---
 ## VBA Basics
 
 ### Variables & Data Types
