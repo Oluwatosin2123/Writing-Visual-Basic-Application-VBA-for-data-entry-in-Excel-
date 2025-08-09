@@ -18,7 +18,8 @@ This repository serves as a reference for learning, practicing, and applying VBA
 7. [Error Handling](#error-handling)
 8. [Best Practices](#best-practices)
 9. [Resources & Further Learning](#resources--further-learning)
-
+10. [VBA Basic].
+    (#VBA-Basic)
 ---
 
 ## Introduction to VBA
@@ -56,7 +57,9 @@ Dim counter As Integer
 message = "Hello VBA!"
 counter = 10
 
-## VBA Guide 
+---
+***
+### VBA Guide 
 ### Table of Contents
 
 1. Introduction to VBA
