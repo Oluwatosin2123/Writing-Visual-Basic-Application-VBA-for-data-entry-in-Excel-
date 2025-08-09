@@ -8,7 +8,7 @@ This repository serves as a reference for learning, practicing, and applying VBA
 ---
 
 ## 📑 Table of Contents
-
+---
 1. [Introduction to VBA](#introduction-to-vba)
 2. [Getting Started](#getting-started)
 3. [VBA Basics](#vba-basics)
@@ -145,8 +145,6 @@ Next cell
 
 
 
-### Writing Your First Macro
-
 1. Record a Macro
 
 Developer → Record Macro → Perform actions → Stop Recording.
@@ -156,7 +154,6 @@ Developer → Record Macro → Perform actions → Stop Recording.
 2. View/Edit Macro
 
 Developer → Macros → Select → Edit.
-
 
 
 3. Example:
@@ -170,7 +167,6 @@ End Sub
 
 Auto-format a Report
 
-
 Sub FormatReport()
     With Range("A1:D1")
         .Font.Bold = True
@@ -179,7 +175,6 @@ Sub FormatReport()
 End Sub
 
 Clear Empty Rows
-
 
 Sub ClearEmptyRows()
     Dim i As Long
@@ -190,8 +185,8 @@ Sub ClearEmptyRows()
     Next i
 End Sub
 
-
-### Error Handling
+---
+* Error Handling
 
 Sub SafeDivision()
     On Error GoTo ErrorHandler
@@ -206,7 +201,7 @@ End Sub
 
 ---
 
-### Best Practices
+* Best Practices
 
 Comment your code for clarity.
 
@@ -220,6 +215,6 @@ Always include error handling.
 
 
 
-Official Microsoft VBA documentation
+* Official Microsoft VBA documentation
 
 Recommended tutorials, books, and communities
