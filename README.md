@@ -53,7 +53,7 @@ Dim counter As Integer
 message = "Hello VBA!"
 counter = 10
 
-
+```
 ## VBA Guide
  
 ### Table of Contents
@@ -72,7 +72,7 @@ How to open the VBA Editor
 
 Understanding the VBA interface (Project Explorer, Code Window, Immediate Window)
 
-Enabling macros in Excel
+### Enabling macros in Excel
 
 3. VBA Basics
 
@@ -128,11 +128,11 @@ Writing reusable procedures
 
 Working with Excel Objects
 
-Selecting a Range
+### Selecting a Range
 
 Range("A1:B5").Select
 
-Writing to a Cell
+### Writing to a Cell
 
 Range("A1").Value = "Hello World"
 
