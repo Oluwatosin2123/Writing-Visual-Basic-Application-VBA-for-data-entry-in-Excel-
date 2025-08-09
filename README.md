@@ -19,7 +19,7 @@ This repository serves as a reference for learning, practicing, and applying VBA
 8. [Best Practices](#best-practices)
 9. [Resources & Further Learning](#resources--further-learning)
 10. [VBA Basic].
-    (#VBA-Basic)
+(#vba-basic)
 ---
 
 ## Introduction to VBA
