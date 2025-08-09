@@ -127,6 +127,100 @@ Writing reusable procedures
 
 9. Resources & Further Learning
 
+Working with Excel Objects
+
+Selecting a Range
+
+Range("A1:B5").Select
+
+Writing to a Cell
+
+Range("A1").Value = "Hello World"
+
+Looping through Cells
+
+Dim cell As Range
+For Each cell In Range("A1:A10")
+    cell.Value = cell.Row
+Next cell
+
+
+
+### Writing Your First Macro
+
+1. Record a Macro
+
+Developer → Record Macro → Perform actions → Stop Recording.
+
+
+
+2. View/Edit Macro
+
+Developer → Macros → Select → Edit.
+
+
+
+3. Example:
+
+Sub HelloWorld()
+    MsgBox "Hello, World!"
+End Sub
+
+
+### Useful VBA Examples
+
+Auto-format a Report
+
+
+Sub FormatReport()
+    With Range("A1:D1")
+        .Font.Bold = True
+        .Interior.Color = vbYellow
+    End With
+End Sub
+
+Clear Empty Rows
+
+
+Sub ClearEmptyRows()
+    Dim i As Long
+    For i = Cells(Rows.Count, 1).End(xlUp).Row To 1 Step -1
+        If WorksheetFunction.CountA(Rows(i)) = 0 Then
+            Rows(i).Delete
+        End If
+    Next i
+End Sub
+
+
+### Error Handling
+
+Sub SafeDivision()
+    On Error GoTo ErrorHandler
+    Dim result As Double
+    result = 10 / 0
+    MsgBox result
+    Exit Sub
+ErrorHandler:
+    MsgBox "An error occurred: " & Err.Description
+End Sub
+
+
+---
+
+### Best Practices
+
+Comment your code for clarity.
+
+Use meaningful variable names.
+
+Avoid hardcoding values—use constants.
+
+Write modular, reusable code.
+
+Always include error handling.
+
+
+
 Official Microsoft VBA documentation
 
 Recommended tutorials, books, and communities
