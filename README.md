@@ -18,9 +18,7 @@ This repository serves as a reference for learning, practicing, and applying VBA
 7. [Error Handling](#error-handling)
 8. [Best Practices](#best-practices)
 9. [Resources & Further Learning](#resources--further-learning)
-10. [VBA Basic].
-(#vba-basic)
----
+   
 
 ## Introduction to VBA
 
@@ -31,7 +29,6 @@ With VBA, you can:
 - Build user interfaces
 - Integrate Excel with other applications
 
----
 
 ## Getting Started
 
@@ -46,7 +43,6 @@ With VBA, you can:
 4. **Enable Macros**
    - Go to `File` → `Options` → `Trust Center` → **Enable all macros** (for development only).
 
----
 
 ## VBA Basics
 
@@ -57,9 +53,9 @@ Dim counter As Integer
 message = "Hello VBA!"
 counter = 10
 
----
-***
-### VBA Guide 
+
+## VBA Guide
+ 
 ### Table of Contents
 
 1. Introduction to VBA
